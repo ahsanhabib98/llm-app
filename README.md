@@ -1,6 +1,6 @@
 # Climas LLM
 
-This is the repository of Climas LLM
+This is the repository of LLM App
 
 Run all the commands from project root directory.
 
