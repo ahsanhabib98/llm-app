@@ -1,4 +1,4 @@
-# Climas LLM
+# LLM App
 
 This is the repository of LLM App
 
