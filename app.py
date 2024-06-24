@@ -10,7 +10,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer, pipeline
 app = Flask(__name__)
 
 # Path to your local model directory
-local_model_path = '/home/indetechs/notebooks/TVS-BR-llama-2-7B-agenda'
+local_model_path = '/home/notebooks/lama-2-7B-agenda'
 # Load the tokenizer and model
 tokenizer = AutoTokenizer.from_pretrained(local_model_path, local_files_only=True)
 model = AutoModelForCausalLM.from_pretrained(local_model_path, local_files_only=True)
